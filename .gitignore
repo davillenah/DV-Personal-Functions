@@ -1,0 +1,180 @@
+########################################################
+# FILE: .gitignore
+#
+# ORGANIZATION: Departamento de Ingeniería
+# LEAD AUTHOR: Daniel A. Villena H.
+# CONTACT: ingenierovillena@gmail.com
+########################################################
+
+########################################################
+# SISTEMA Y BASURA
+########################################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.tmp
+*.temp
+*.bak
+*.old
+*.swo
+*.swp
+*.lock
+*.log
+*.cache
+*.backup
+~$*
+~*.tmp
+*.xlsx#
+
+########################################################
+# GIT Y ENTORNOS
+########################################################
+*.orig
+*.rej
+
+########################################################
+# DOCUMENTOS TEMPORALES CAD/CAE
+########################################################
+
+# AutoCAD / DWG-based
+*.dwf
+*.dwl
+*.dwl2
+*.sv$
+*.ac$
+
+# SolidWorks
+*~sw?
+*.lyr
+*.bnp
+*.out
+*.$$$
+
+# Inventor
+*.ipj
+*.autobak
+
+# FreeCAD
+*.fcstd1
+*.fcstd2
+
+# QElectroTech
+*.tmp.qet
+*.lock.qet
+
+# IFC & BIM
+*.ifcTMP
+
+# Revit
+*.slog
+*._backup
+
+########################################################
+# SIMULACIONES / CAE
+########################################################
+
+# ANSYS
+*.db-journal
+*.err
+*.RDB
+*.esav
+*.osav
+*.stt
+*.cnd
+
+# Abaqus
+*.lck
+*.sta
+*.msg
+*.fil
+*.prt
+*.sim~
+*.inp~
+*.odb.bak
+
+# SolidWorks Simulation
+*.cwr
+*.sldwrk
+
+# Calculix / FEM
+*.fbd
+*.dat
+*.res
+*.msh
+*.gid
+
+########################################################
+# PLC & AUTOMATIZACIÓN
+########################################################
+*.ark
+*.dvp~
+
+########################################################
+# LIBRERÍAS INDUSTRIALES
+########################################################
+*.index
+*.database
+*.baklib
+
+########################################################
+# CIENTÍFICO / MATEMÁTICO
+########################################################
+*.asv
+*.autosave
+*.mex*
+.ipynb_checkpoints
+
+########################################################
+# COMPRESIONES TEMPORALES
+########################################################
+*.zip.tmp
+*.rar.tmp
+*.7z.tmp
+
+########################################################
+# SOFTWARE GRÁFICO
+########################################################
+*.blend1
+*.blend2
+*.idlk
+*.psb
+
+########################################################
+# LOGS
+########################################################
+*.trace
+*.memory
+*.profile
+
+########################################################
+# PYTHON
+########################################################
+_pycache_/
+__pycache__/
+*.py[codz]
+*.pyc
+*.pyo
+*.pyd
+*.so
+.Python
+
+build/
+dist/
+.eggs/
+*.egg-info/
+
+.coverage
+.cache
+.pytest_cache/
+.mypy_cache/
+
+.env
+.envrc
+.venv
+.venv/
+env/
+venv/
+
+.ipynb_checkpoints/
